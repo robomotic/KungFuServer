@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project KungFuServer -->
+<!-- Saved: 2013-04-16, 11:06:48 -->
+<!-- Copyright (C) 2013 Paolo Di Prodi, paolo@robomotic.com -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Console</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author>Paolo Di Prodi</Author>
+  <Email>paolo@robomotic.com</Email>
+  <Sources>
+    <Source>manage.py</Source>
+    <Source>kungfudojo/urls.py</Source>
+    <Source>kungfudojo/settings.py</Source>
+    <Source>kungfudojo/__init__.py</Source>
+    <Source>kungfudojo/wsgi.py</Source>
+    <Source>__init__.py</Source>
+    <Source>codemanager/tests.py</Source>
+    <Source>codemanager/views.py</Source>
+    <Source>codemanager/models.py</Source>
+    <Source>codemanager/__init__.py</Source>
+    <Source>codemanager/admin.py</Source>
+    <Source>blogengine/views.py</Source>
+    <Source>blogengine/models.py</Source>
+    <Source>blogengine/admin.py</Source>
+    <Source>codemanager/urls.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>manage.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+  </FiletypeAssociations>
+</Project>

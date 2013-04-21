@@ -1,0 +1,23 @@
+
+<p>User: {{ activity.user }}</p>
+<p>Description: {{ activity.description }}</p>
+
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<table>
+<tr>
+   <td>File Extension</td>
+   <td>Lines of code</td>
+   <td>Density</td>
+</tr>
+{% for filestat in activity.filetype_set.all  %}
+<tr>
+   <td>{{ filestat.filext }}</td>
+   <td>{{ filestat.lines }}</td>
+   <td>{{ filestat.density }}</td>
+</tr>
+{% endfor %}
+
+</table>
+

@@ -1,0 +1,9 @@
+{% if activity_list %}
+    <ul>
+    {% for update in activity_list %}
+        <li><a href="{% url 'codemanager:detail' update.id %}">{{ update.user.username}} {{update.pub_date }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No updates today.</p>
+{% endif %}
